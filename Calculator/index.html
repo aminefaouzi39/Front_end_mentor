@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator-container">
+      <div class="theme-changer">
+        <h5 class="upper-text">calc</h5>
+        <span class="upper-text">THEME</span>
+        <div class="theme">
+          <input type="checkbox" id="theme-2" class="input" />
+          <span class="upper-text"
+            >&nbsp; 1 &nbsp;&nbsp;&nbsp; 2 &nbsp;&nbsp;&nbsp; 3</span
+          >
+          <label class="label" for="theme-2">
+            <div class="circle"></div>
+          </label>
+        </div>
+      </div>
+      <input id="input-field" type="text" disabled />
+      <div class="keys-container">
+        <button class="number" data-value="7">7</button>
+        <button class="number" data-value="8">8</button>
+        <button class="number" data-value="9">9</button>
+        <button class="delete">DEL</button>
+        <button class="number" data-value="4">4</button>
+        <button class="number" data-value="5">5</button>
+        <button class="number" data-value="6">6</button>
+        <button class="sum number" data-value="&nbsp;+&nbsp;">+</button>
+        <button class="number" data-value="1">1</button>
+        <button class="number" data-value="2">2</button>
+        <button class="number" data-value="3">3</button>
+        <button class="sub number" data-value="&nbsp;-&nbsp;">-</button>
+        <button class="number" data-value=".">.</button>
+        <button class="number" data-value="0">0</button>
+        <button class="divide number" data-value="&nbsp;/&nbsp;">/</button>
+        <button class="times number" data-value="&nbsp;x&nbsp;">x</button>
+        <button class="clear">RESET</button>
+        <button class="equal">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
